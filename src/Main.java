@@ -1,11 +1,13 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello and welcome!");
-
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
+        int num1 = 10;
+        int num2 = 20;
+        int sum = num1 + num2;
+        System.out.println("First Number: " + num1);
+        System.out.println("Second Number: " + num2);
+        System.out.println("Sum: " + sum);
+        if (sum > 20) {
+            System.out.println("The sum is greater than 20.");
         }
     }
 }
